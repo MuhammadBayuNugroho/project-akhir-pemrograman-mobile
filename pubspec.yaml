@@ -1,0 +1,59 @@
+name: flutter_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+
+  flutter_svg: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/img-home.png
+  - assets/vectors/ellipse_1_x2.svg
+  - assets/vectors/vector_8_x2.svg
+  - assets/images/img-5.png
+  - assets/images/img-1.png
+  - assets/images/img-profil.jpeg
+  - assets/images/img-2.png
+  - assets/images/img-3.png
+  - assets/vectors/vector_14_x2.svg
+  - assets/vectors/vector_6_x2.svg
+  - assets/vectors/group_1_x2.svg
+  - assets/vectors/vector_2_x2.svg
+  - assets/vectors/vector_19_x2.svg
+  - assets/vectors/vector_7_x2.svg
+  - assets/vectors/frame_30_x2.svg
+  - assets/vectors/vector_18_x2.svg
+  - assets/vectors/vector_4_x2.svg
+  - assets/vectors/vector_12_x2.svg
+  - assets/vectors/vector_11_x2.svg
+  - assets/vectors/vector_x2.svg
+  - assets/vectors/vector_17_x2.svg
+  - assets/vectors/vector_3_x2.svg
+  - assets/vectors/vector_13_x2.svg
+  - assets/vectors/vector_16_x2.svg
+  - assets/vectors/vector_10_x2.svg
+  - assets/vectors/group_x2.svg
+  - assets/images/img-4.png
+  - assets/vectors/rectangle_3_x2.svg
+  - assets/vectors/vector_5_x2.svg
+  - assets/vectors/vector_1_x2.svg
+  - assets/vectors/vector_9_x2.svg
+  - assets/vectors/ellipse_21_x2.svg
+  - assets/vectors/vector_15_x2.svg
+  - assets/vectors/vector_8_x2.svg
+
