@@ -8,4 +8,5 @@
 3. Ketik Ctrl+shift+p untuk membuat project baru, kemudian pilih "FLutter: New Project"  -->  "Application"
 4. Masuk pada folder lib, dan buat beberapa file didalamnya. File utama project ini adalah "main.dart"
 5. Masukkan beberapa asset gambar dan icon yang dibutuhkan untuk project ini dalam folder asset
-6. 
+6. Setelah source code selesai, simpan project. Kemudian jalankan project untuk memvisualisasikan
+7. Buat repository baru di github, kemudian commit perhalaman atau perbagian dari project ini
