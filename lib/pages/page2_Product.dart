@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/pages/page3.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -35,7 +36,14 @@ class Kolom extends StatelessWidget {
                           Container(
                             padding: const EdgeInsets.all(8),
                             child: GestureDetector(
-                              onTap: () {},
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) =>
+                                          const Page3()), // Ganti NextPage() dengan halaman tujuan yang sesuai
+                                );
+                              },
                               child: Stack(
                                 children: [
                                   // Gambar
@@ -45,7 +53,7 @@ class Kolom extends StatelessWidget {
                                       decoration: BoxDecoration(
                                         image: const DecorationImage(
                                           image: NetworkImage(
-                                            'assets/images/img-1.png',
+                                            'assets/images/img-5.png',
                                           ),
                                           fit: BoxFit.cover,
                                         ),
@@ -157,7 +165,14 @@ class Kolom extends StatelessWidget {
                           Container(
                             padding: const EdgeInsets.all(8),
                             child: GestureDetector(
-                              onTap: () {},
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) =>
+                                          const Page3()), // Ganti NextPage() dengan halaman tujuan yang sesuai
+                                );
+                              },
                               child: Stack(
                                 children: [
                                   // Gambar
@@ -167,7 +182,7 @@ class Kolom extends StatelessWidget {
                                       decoration: BoxDecoration(
                                         image: const DecorationImage(
                                           image: NetworkImage(
-                                            'assets/images/img-2.png',
+                                            'assets/images/img-1.png',
                                           ),
                                           fit: BoxFit.cover,
                                         ),
@@ -279,7 +294,14 @@ class Kolom extends StatelessWidget {
                           Container(
                             padding: const EdgeInsets.all(8),
                             child: GestureDetector(
-                              onTap: () {},
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) =>
+                                          const Page3()), // Ganti NextPage() dengan halaman tujuan yang sesuai
+                                );
+                              },
                               child: Stack(
                                 children: [
                                   // Gambar
@@ -410,7 +432,14 @@ class Kolom extends StatelessWidget {
                         Container(
                           padding: const EdgeInsets.all(8),
                           child: GestureDetector(
-                            onTap: () {},
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) =>
+                                        const Page3()), // Ganti NextPage() dengan halaman tujuan yang sesuai
+                              );
+                            },
                             child: Stack(
                               children: [
                                 // Gambar
@@ -531,7 +560,14 @@ class Kolom extends StatelessWidget {
                         Container(
                           padding: const EdgeInsets.all(8),
                           child: GestureDetector(
-                            onTap: () {},
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) =>
+                                        const Page3()), // Ganti NextPage() dengan halaman tujuan yang sesuai
+                              );
+                            },
                             child: Stack(
                               children: [
                                 // Gambar
@@ -541,7 +577,7 @@ class Kolom extends StatelessWidget {
                                     decoration: BoxDecoration(
                                       image: const DecorationImage(
                                         image: NetworkImage(
-                                          'assets/images/img-5.png',
+                                          'assets/images/img-2.png',
                                         ),
                                         fit: BoxFit.cover,
                                       ),
@@ -652,7 +688,14 @@ class Kolom extends StatelessWidget {
                         Container(
                           padding: const EdgeInsets.all(8),
                           child: GestureDetector(
-                            onTap: () {},
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) =>
+                                        const Page3()), // Ganti NextPage() dengan halaman tujuan yang sesuai
+                              );
+                            },
                             child: Stack(
                               children: [
                                 // Gambar

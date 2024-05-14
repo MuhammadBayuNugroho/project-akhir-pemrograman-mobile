@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/page2_Product.dart';
+import 'package:flutter_app/pages/bottomNavigation.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -13,16 +14,8 @@ class Page2 extends StatelessWidget {
         padding: const EdgeInsets.fromLTRB(15, 20, 20, 10),
         height: 812,
         width: 375,
-        decoration: const BoxDecoration(
-          color: Color.fromARGB(255, 233, 233, 233),
-          boxShadow: [
-            BoxShadow(
-              color: Color(0x33282828),
-              offset: Offset(9, 10),
-              blurRadius: 8,
-            ),
-          ],
-        ),
+        decoration:
+            const BoxDecoration(color: Color.fromARGB(255, 233, 233, 233)),
         child: SingleChildScrollView(
           child: Column(
             children: [
@@ -294,6 +287,7 @@ class Page2 extends StatelessWidget {
           ),
         ),
       ),
+      bottomNavigationBar: Bottom(),
     );
   }
 }
