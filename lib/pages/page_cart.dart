@@ -4,9 +4,11 @@ import 'package:flutter_app/models/cart_model.dart'; // Import CartModel instead
 import 'package:flutter_app/pages/bottomNavigation.dart'; // Adjust to your navigation setup
 
 class CartPage extends StatefulWidget {
+  // ignore: use_super_parameters
   const CartPage({Key? key}) : super(key: key);
 
   @override
+  // ignore: library_private_types_in_public_api
   _CartPageState createState() => _CartPageState();
 }
 

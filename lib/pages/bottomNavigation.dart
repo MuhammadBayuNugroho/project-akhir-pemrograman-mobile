@@ -1,14 +1,17 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/page_cart.dart';
 import 'package:flutter_app/pages/page2.dart';
-import 'page_favorite.dart'; // Sesuaikan dengan nama file dan lokasi halaman FavoritePage Anda
+import 'package:flutter_app/pages/page_profile.dart';
+import 'page_favorite.dart';
+import 'package:flutter/material.dart';
 
 class Bottom extends StatefulWidget {
   final int selectedIndex; // Tambahkan variabel selectedIndex
-  Bottom({Key? key, required this.selectedIndex})
-      : super(key: key); // Tambahkan selectedIndex ke dalam constructor
+  Bottom(
+      {super.key,
+      required this.selectedIndex}); // Tambahkan selectedIndex ke dalam constructor
 
   @override
+  // ignore: library_private_types_in_public_api
   _BottomState createState() => _BottomState();
 }
 
@@ -35,6 +38,11 @@ class _BottomState extends State<Bottom> {
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => const CartPage()),
+        );
+      case 3:
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => const ProfilePage()),
         );
         break;
     }
@@ -69,7 +77,7 @@ class _BottomState extends State<Bottom> {
           ],
           currentIndex:
               widget.selectedIndex, // Gunakan selectedIndex dari widget
-          selectedItemColor: Color.fromARGB(255, 56, 117, 74),
+          selectedItemColor: const Color.fromARGB(255, 56, 117, 74),
           onTap: _onItemTapped,
         ),
       ),

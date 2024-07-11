@@ -21,7 +21,7 @@ class _KolomState extends State<Kolom> {
     final supabase = Supabase.instance.client;
     final response = await supabase.from('favorites').insert({
       'title': title,
-      'price': price,
+      'pric': price,
       'image_url': imageUrl,
     });
 
@@ -35,7 +35,7 @@ class _KolomState extends State<Kolom> {
     if (response.error != null) {
       print('Error saving favorite: ${response.error.message}');
     } else {
-      print('Favorite saved successfully');
+      debugPrint('Favorite saved successfully');
     }
   }
 

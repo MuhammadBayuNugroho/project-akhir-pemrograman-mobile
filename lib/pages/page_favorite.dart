@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/controllers/favorite_controller.dart';
+import 'package:flutter_app/controllers/favorite_controller.dart'; // Sesuaikan dengan lokasi file controller Anda
 import 'package:flutter_app/models/favorite_model.dart';
-import 'package:flutter_app/pages/bottomNavigation.dart';
+import 'package:flutter_app/pages/bottomNavigation.dart'; // Sesuaikan dengan lokasi file model Anda
 
 class FavoritePage extends StatefulWidget {
   const FavoritePage({Key? key}) : super(key: key);
