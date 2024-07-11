@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+// Product Buying Right Now
 class Page3 extends StatelessWidget {
   const Page3({super.key});
 
@@ -9,8 +10,6 @@ class Page3 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        width: 375,
-        height: 812,
         decoration: const BoxDecoration(
           color: Color.fromARGB(255, 233, 233, 233),
         ),
@@ -23,7 +22,7 @@ class Page3 extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(12),
                     image: const DecorationImage(
-                      image: NetworkImage(
+                      image: AssetImage(
                         'assets/images/img-5.png',
                       ),
                       fit: BoxFit

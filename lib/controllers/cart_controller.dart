@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/models/cart_model.dart';
+import 'package:flutter_app/models/favorite_model.dart';
 import 'package:flutter_app/services/cart_service.dart';
+import 'package:flutter_app/services/favorite_service.dart';
 
 class CartController {
   final CartService _cartService = CartService();

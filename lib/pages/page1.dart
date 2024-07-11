@@ -10,8 +10,6 @@ class Page1 extends StatelessWidget {
     return Scaffold(
       // Body
       body: Container(
-        height: 812,
-        width: 375,
         color: const Color.fromARGB(255, 255, 255, 255),
 
         // Vector
@@ -21,8 +19,6 @@ class Page1 extends StatelessWidget {
               top: -220,
               left: -105,
               child: SizedBox(
-                width: 600,
-                height: 800,
                 child: SvgPicture.asset(
                   'assets/vectors/ellipse_1_x2.svg',
                 ),
@@ -51,7 +47,7 @@ class Page1 extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    margin: const EdgeInsets.fromLTRB(30, 550, 25, 30),
+                    margin: const EdgeInsets.fromLTRB(10, 550, 25, 30),
                     child: Text(
                       'Create Your \n Own Garden!',
                       textAlign: TextAlign.center,

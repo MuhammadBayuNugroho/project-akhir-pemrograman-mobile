@@ -4,6 +4,7 @@ import 'package:flutter_app/pages/bottomNavigation.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+// HOME PAGE
 class Page2 extends StatelessWidget {
   const Page2({super.key});
 
@@ -12,8 +13,6 @@ class Page2 extends StatelessWidget {
     return Scaffold(
       body: Container(
         padding: const EdgeInsets.fromLTRB(15, 20, 20, 10),
-        height: 812,
-        width: 375,
         decoration:
             const BoxDecoration(color: Color.fromARGB(255, 233, 233, 233)),
         child: SingleChildScrollView(
@@ -28,7 +27,7 @@ class Page2 extends StatelessWidget {
                       color: const Color(0xFFD9D9D9),
                       image: const DecorationImage(
                         fit: BoxFit.cover,
-                        image: NetworkImage(
+                        image: AssetImage(
                           'assets/images/img-profil.jpeg',
                         ),
                       ),
@@ -287,7 +286,9 @@ class Page2 extends StatelessWidget {
           ),
         ),
       ),
-      bottomNavigationBar: Bottom(),
+      bottomNavigationBar: Bottom(
+        selectedIndex: 0,
+      ),
     );
   }
 }
