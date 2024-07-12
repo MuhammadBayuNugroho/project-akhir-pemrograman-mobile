@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 
 class Bottom extends StatefulWidget {
   final int selectedIndex; // Tambahkan variabel selectedIndex
-  Bottom(
+  const Bottom(
       {super.key,
       required this.selectedIndex}); // Tambahkan selectedIndex ke dalam constructor
 

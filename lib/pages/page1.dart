@@ -15,10 +15,11 @@ class Page1 extends StatelessWidget {
         // Vector
         child: Stack(
           children: [
-            Positioned(
-              top: -220,
-              left: -105,
-              child: SizedBox(
+            Container(
+              width: 1000,
+              height: 1000,
+              child: Container(
+                margin: const EdgeInsets.fromLTRB(30, 0, 25, 200),
                 child: SvgPicture.asset(
                   'assets/vectors/ellipse_1_x2.svg',
                 ),
@@ -26,9 +27,9 @@ class Page1 extends StatelessWidget {
             ),
 
             // Gambar Plant
-            Positioned(
-              left: -50,
+            Center(
               child: Container(
+                margin: const EdgeInsets.fromLTRB(30, 0, 25, 200),
                 width: 480,
                 height: 500,
                 decoration: const BoxDecoration(
@@ -47,7 +48,7 @@ class Page1 extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    margin: const EdgeInsets.fromLTRB(10, 550, 25, 30),
+                    margin: const EdgeInsets.fromLTRB(30, 550, 25, 30),
                     child: Text(
                       'Create Your \n Own Garden!',
                       textAlign: TextAlign.center,

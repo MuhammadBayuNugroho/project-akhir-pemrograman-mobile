@@ -4,7 +4,7 @@ import 'package:flutter_app/models/favorite_model.dart';
 import 'package:flutter_app/pages/bottomNavigation.dart'; // Sesuaikan dengan lokasi file model Anda
 
 class FavoritePage extends StatefulWidget {
-  const FavoritePage({Key? key}) : super(key: key);
+  const FavoritePage({super.key});
 
   @override
   _FavoritePageState createState() => _FavoritePageState();
@@ -52,7 +52,7 @@ class _FavoritePageState extends State<FavoritePage> {
           : const Center(
               child: CircularProgressIndicator(),
             ),
-      bottomNavigationBar: Bottom(
+      bottomNavigationBar: const Bottom(
         selectedIndex: 1,
       ),
     );

@@ -54,7 +54,7 @@ class _CartPageState extends State<CartPage> {
           : const Center(
               child: CircularProgressIndicator(),
             ),
-      bottomNavigationBar: Bottom(selectedIndex: 2),
+      bottomNavigationBar: const Bottom(selectedIndex: 2),
     );
   }
 }

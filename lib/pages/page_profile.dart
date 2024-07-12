@@ -20,14 +20,14 @@ class ProfilePage extends StatelessWidget {
         ),
       ),
       body: Container(
-        padding: EdgeInsets.all(20),
+        padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            CircleAvatar(
+            const CircleAvatar(
               radius: 50,
               backgroundImage: AssetImage('assets/images/img-profil.jpeg'),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             Text(
               'Muhammad Bayu Nugroho',
               style: GoogleFonts.poppins(
@@ -36,7 +36,7 @@ class ProfilePage extends StatelessWidget {
                 color: const Color(0xFF101828),
               ),
             ),
-            SizedBox(height: 10),
+            const SizedBox(height: 10),
             Text(
               'bayu27@example.com',
               style: GoogleFonts.poppins(
@@ -45,9 +45,9 @@ class ProfilePage extends StatelessWidget {
                 color: const Color(0xFF98A2B3),
               ),
             ),
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
             ListTile(
-              leading: Icon(Icons.settings),
+              leading: const Icon(Icons.settings),
               title: Text(
                 'Settings',
                 style: GoogleFonts.poppins(
@@ -61,7 +61,7 @@ class ProfilePage extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: Icon(Icons.logout),
+              leading: const Icon(Icons.logout),
               title: Text(
                 'Logout',
                 style: GoogleFonts.poppins(
@@ -77,7 +77,7 @@ class ProfilePage extends StatelessWidget {
           ],
         ),
       ),
-      bottomNavigationBar: Bottom(selectedIndex: 3),
+      bottomNavigationBar: const Bottom(selectedIndex: 3),
     );
   }
 }

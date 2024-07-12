@@ -21,14 +21,14 @@ class _KolomState extends State<Kolom> {
     final supabase = Supabase.instance.client;
     final response = await supabase.from('favorites').insert({
       'title': title,
-      'pric': price,
+      'price': price,
       'image_url': imageUrl,
     });
 
     ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
+      const SnackBar(
         content: Text('Favorite saved successfully'),
-        duration: const Duration(seconds: 2),
+        duration: Duration(seconds: 2),
       ),
     );
 
@@ -60,9 +60,9 @@ class _KolomState extends State<Kolom> {
     });
 
     ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
+      const SnackBar(
         content: Text('Product saved successfully'),
-        duration: const Duration(seconds: 2),
+        duration: Duration(seconds: 2),
       ),
     );
 

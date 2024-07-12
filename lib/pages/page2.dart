@@ -286,7 +286,7 @@ class Page2 extends StatelessWidget {
           ),
         ),
       ),
-      bottomNavigationBar: Bottom(
+      bottomNavigationBar: const Bottom(
         selectedIndex: 0,
       ),
     );
