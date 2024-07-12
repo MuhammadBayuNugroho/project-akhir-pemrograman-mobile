@@ -1,7 +1,7 @@
 # UTS & UAS Pemrograman Mobile
 **Muhammad Bayu Nugroho - 211240001153 - DB**
----
 
+---
 ## UAS-Pemrograman Mobile
 
 **Project consume API** : Menggunakan Supabase API
@@ -30,8 +30,12 @@
 6. Setelah source code selesai, simpan project. Kemudian jalankan project untuk memvisualisasikan
 7. Buat repository baru di github, kemudian commit perhalaman atau perbagian dari project ini
 
-
+---
 ## Hasil Final
 
 ![image](https://github.com/user-attachments/assets/f3580d22-4593-4513-82e4-1f7b1d2ecd71) 
 ![image](https://github.com/user-attachments/assets/a1ab411a-a8d1-4712-b9db-fc8b250b2fc7)
+![image](https://github.com/user-attachments/assets/c6751d8c-7b96-42e9-9e57-9b8be10e13b7)
+![image](https://github.com/user-attachments/assets/3c8b27af-b4d8-400f-94f1-76f51dde6d19)
+![image](https://github.com/user-attachments/assets/f5e45057-8911-4947-81de-9c04f56458b2)
+![image](https://github.com/user-attachments/assets/57b021bb-53c2-4dbd-aaaf-fa2226f3cca0)
